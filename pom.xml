@@ -49,7 +49,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <android.sdk.platform>18</android.sdk.platform>
-        <support-v4-version>r19</support-v4-version>
+        <support-v4-version>13.0.0</support-v4-version>
         <java.version>1.6</java.version>
 
         <!-- Dependency Versions -->
