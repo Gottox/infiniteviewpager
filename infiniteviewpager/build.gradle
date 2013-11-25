@@ -1,0 +1,34 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+
+	dependencies {
+		classpath 'com.android.tools.build:gradle:+'
+	}
+}
+
+apply plugin: 'android-library'
+
+dependencies {
+	compile 'com.android.support:support-v4:+'
+}
+
+android {
+	compileSdkVersion 18
+	android.buildToolsVersion "18.1.1"
+	sourceSets {
+		main {
+			manifest.srcFile 'AndroidManifest.xml'
+				java.srcDirs = ['src','util']
+				resources.srcDirs = ['src','util']
+				aidl.srcDirs = ['src','util']
+				renderscript.srcDirs = ['src','util']
+				res.srcDirs = ['res']
+				assets.srcDirs = ['assets']
+		}
+	}
+}
+task wrapper(type: Wrapper) {
+	gradleVersion = '1.8'
+}

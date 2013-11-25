@@ -1,28 +1,37 @@
-# built application files
-*.apk
-*.ap_
-
-# files for the dex VM
-*.dex
-
-# Java class files
-*.class
-
-# generated files
-bin/
-gen/
-gen-external-apklibs
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
-.classpath
-.project
-
-#IntelliJ
-*.iml
-.idea
-
-#MacOS
+*~
+.gradle
+/build
+/out
+/intTestHomeDir
+/subprojects/*/out
+/intellij
+/buildSrc/lib
+/buildSrc/build
+/subprojects/*/build
+/subprojects/docs/src/samples/*/*/build
+/website/build
+/website/website.iml
+/website/website.ipr
+/website/website.iws
+/performanceTest/build
+/subprojects/*/ide
+/*.iml
+/*.ipr
+/*.iws
+/subprojects/*/*.iml
+/buildSrc/*.ipr
+/buildSrc/*.iws
+/buildSrc/*.iml
+/buildSrc/out
+*.classpath
+*.project
+*.settings
+/bin
+/subprojects/*/bin
 .DS_Store
+/performanceTest/lib
+.textmate
+/incoming-distributions
+.idea
+*.sublime-*
+config.json

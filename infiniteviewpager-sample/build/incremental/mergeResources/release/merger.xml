@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="InfiniteviewpagerInfiniteviewpagerUnspecified.aar" >
+        <source path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/build/exploded-bundles/InfiniteviewpagerInfiniteviewpagerUnspecified.aar/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="complex_page_layout"
+                path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/res/layout/complex_page_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="page_content"
+                path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/res/layout/page_content.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="page_layout_2"
+                path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/res/layout/page_layout_2.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >InfiniteViewPagerSample
+                </string>
+            </file>
+        </source>
+        <source path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/build/res/rs/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/tox/src/infiniteviewpager/infiniteviewpager-sample/src/release/res" />
+    </dataSet>
+
+</merger>

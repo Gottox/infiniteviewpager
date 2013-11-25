@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/tox/src/infiniteviewpager/infiniteviewpager/res" />
+        <source path="/Users/tox/src/infiniteviewpager/infiniteviewpager/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/tox/src/infiniteviewpager/infiniteviewpager/src/debug/res" />
+    </dataSet>
+
+</merger>
